@@ -1,7 +1,8 @@
 ﻿<Window x:Class="NotesApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Notable" Height="520" Width="870">
+        Title="Notable" Height="520" Width="870"
+        MinHeight="520" MinWidth="870">
     <Grid>
         <!-- Hauptlayout mit zwei Spalten -->
         <Grid.ColumnDefinitions>

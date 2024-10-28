@@ -11,8 +11,8 @@ namespace Notable.Controller
         // Eine private Liste von Notizen, die in dieser Klasse verwaltet wird
         private List<Note> notes = new List<Note>();
 
-        public IEnumerable<Note> GetAllNotes() => notes;
-
+        public IEnumerable<Note> GetAllNotes() => notes; // ist ein Interface, das nur die Fähigkeit zum Iterieren über eine Sammlung bietet, ohne Details über deren Implementierung preiszugeben
+        // Datenkapselung, wird verwendet wenn man nichts über Datenstruktur wissen möchte und nur lesen will
         public void AddNote(Note note)
         {
             notes.Add(note);
