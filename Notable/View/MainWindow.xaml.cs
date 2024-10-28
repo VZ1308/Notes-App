@@ -120,7 +120,7 @@ namespace NotesApp
         }
 
         // Methode zum Speichern der Notizen
-        private void SaveNotizenToFile()
+       private void MenuItemSpeichern_Click(object sender, RoutedEventArgs e)
         {
             string filePath = System.IO.Path.Combine(Environment.CurrentDirectory, "Notizen.txt");
 
@@ -135,12 +135,8 @@ namespace NotesApp
             }
         }
 
-        // Menü-Events zum Speichern und Löschen
-        private void MenuItemSpeichern_Click(object sender, RoutedEventArgs e)
-        {
-            SaveNotizenToFile();
-        }
-
+        // Menü-Events zum Löschen
+        
         private void MenuItemLöschen_Click(object sender, RoutedEventArgs e)
         {
             _noteManager.AllNotes.Clear();
