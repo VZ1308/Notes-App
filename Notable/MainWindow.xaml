@@ -14,9 +14,10 @@
         <!-- Menü auf der linken Seite -->
         <StackPanel Grid.Column="0" Background="LightGray">
             <Menu VerticalAlignment="Top">
-                <MenuItem Header="Datei"/>
-                <MenuItem Header="Bearbeiten"/>
-                <MenuItem Header="Hilfe"/>
+                
+                <MenuItem Header="Datei speichern" Click="MenuItemSpeichern_Click"/>
+                <MenuItem Header="Datei Löschen" Click="MenuItemLöschen_Click"/>
+                <MenuItem Header="Hilfe" Click="MenuItemHilfe_Click"/>
             </Menu>
         </StackPanel>
 
