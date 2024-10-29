@@ -15,8 +15,7 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <!-- TextBoxen füllen gesamte Breite -->
+            <ColumnDefinition Width="*"/> <!-- TextBoxen füllen gesamte Breite -->
         </Grid.ColumnDefinitions>
 
         <!-- Labels und Eingabefelder -->

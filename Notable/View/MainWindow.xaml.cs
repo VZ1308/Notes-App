@@ -108,10 +108,7 @@ namespace NotesApp
                     _noteManager.MarkAsFavorite(selectedNote);
                     MessageBox.Show("Notiz als Favorit markiert.");
                 }
-                else
-                {
-                    MessageBox.Show("Diese Notiz ist bereits in den Favoriten.");
-                }
+                
             }
             else
             {

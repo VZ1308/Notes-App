@@ -34,7 +34,6 @@
             _isFavorite = isFavorite;
         }
 
-        // Überschreibung der ToString()-Methode
         public override string ToString()
         {
             return $"{NoteName}: {NoteContent}";
